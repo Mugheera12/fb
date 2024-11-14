@@ -1,0 +1,20 @@
+body{
+    overflow-x: hidden;
+    background:  #F0F2F5;
+}
+.text-sm{
+    font-size: 0.7rem;
+}
+span{
+    padding: 0.3rem;
+    clip-path: circle();
+}
+.underlay{
+    transition: all 0.6s;
+    transform: translateY(-100%);
+}
+.my-reg-form{
+    transition: all 0.9s;
+    transform: translateX(-20%);
+    opacity: 0;
+}
